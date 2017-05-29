@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CalculationWS", "..\..\WebSites\CalculationWS", "{FC743841-F89B-41A2-AB6D-7E9E3CC5B646}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/CalculationWS"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\CalculationWS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CalculationWS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CalculationWS"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\CalculationWS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CalculationWS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49947"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWS", "ConsumeWS\ConsumeWS.csproj", "{037243E1-86C3-4D84-9340-293434109A1F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC743841-F89B-41A2-AB6D-7E9E3CC5B646} = {FC743841-F89B-41A2-AB6D-7E9E3CC5B646}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC743841-F89B-41A2-AB6D-7E9E3CC5B646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC743841-F89B-41A2-AB6D-7E9E3CC5B646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC743841-F89B-41A2-AB6D-7E9E3CC5B646}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC743841-F89B-41A2-AB6D-7E9E3CC5B646}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{037243E1-86C3-4D84-9340-293434109A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037243E1-86C3-4D84-9340-293434109A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037243E1-86C3-4D84-9340-293434109A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037243E1-86C3-4D84-9340-293434109A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

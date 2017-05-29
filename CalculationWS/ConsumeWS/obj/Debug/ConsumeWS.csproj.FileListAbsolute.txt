@@ -1,0 +1,4 @@
+C:\Users\OMAR\Documents\Visual Studio 2010\Projects\CalculationWS\ConsumeWS\bin\ConsumeWS.dll
+C:\Users\OMAR\Documents\Visual Studio 2010\Projects\CalculationWS\ConsumeWS\bin\ConsumeWS.pdb
+C:\Users\OMAR\Documents\Visual Studio 2010\Projects\CalculationWS\ConsumeWS\obj\Debug\ConsumeWS.dll
+C:\Users\OMAR\Documents\Visual Studio 2010\Projects\CalculationWS\ConsumeWS\obj\Debug\ConsumeWS.pdb
